@@ -1,6 +1,8 @@
 import svm
 from svmutil import *
 
+# from PIL.Image import LINEAR
+
 labels = [0, 1, 1, 2]
 samples = [[0, 1, 0], [1, 1, 1], [1, 1, 0], [0, 0, 0]]
 param = svm_parameter()

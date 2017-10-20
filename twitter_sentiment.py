@@ -43,7 +43,7 @@ class index:
                     return bc.getHTML()
                 elif(method == 'naivebayes'):
                     trainingDataFile = 'data/training_neatfile_2.csv'               
-                    #classifierDumpFile = 'data/naivebayes_trained_model.pickle'
+                    #classifierDumpFile = 'data/naivebayes_test_model.pickle'
                     classifierDumpFile = 'data/test/naivebayes_test_model.pickle'
                     trainingRequired = 0
                     nb = naive_bayes_classifier.NaiveBayesClassifier(tweets, keyword, time, \
