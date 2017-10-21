@@ -5,3 +5,8 @@ twitter-sentiment-analyzer
 Update
 ======
 get_twitter_data.py has been updated to use Twitter API v1.1. Place your consumer_key, consumer_secret, access_token, access_oken_secret in config.json file or pass it via command line. Try test_twitter_data.py for a sample example.
+
+Requirements
+======
+sudo apt-get install python python-nltk python-libsvm python-yaml python-webpy python-oauth2
+
